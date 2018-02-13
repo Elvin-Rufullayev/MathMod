@@ -25,6 +25,11 @@ x>5
 x==10
 # Маетматические операции +, -, *, /, ^, sin(), cos(), sqrt(), log()
 x^10
+5*2
+sin(2)
+cos(10)
+sqrt(5)
+log(4)
 # Задание
 x=10/(5-5)
 x
@@ -41,6 +46,10 @@ length(x)
 x<-c(3,4,6,-7,8)
 mean = sum(x)/ length(x)
 mean
+min(x)
+max(x)
+prod(x)
+abs(x)
 # Последовательности
 x=2:10
 y=5:1
@@ -96,6 +105,7 @@ x["Первый"]
 log(3) == log(3, base=exp(1))
 x=seq(5,100,.1)
 x[length(x)]
+mode(x)
 # Функции sort и order
 x<-c(-10,2,78,34,-98,23,0,-8)
 order(x)
